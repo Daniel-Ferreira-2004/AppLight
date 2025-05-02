@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #BF94FB;
+}
+
+.containerAplicativo {
+    padding-top: 8em;
+    background-color: #BF94FB;
+}
+
+.line {
+    height: 2px;
+    width: 50px;
+    background: #8e1efc;
+    display: block;
+    margin: 20px auto 20px;
+}
+
+.botao {
+    background-color: white;
+    padding: 1em 2em;
+    border: 3px solid #8e1efc;
+    border-radius: 10px;
+    color: #8e1efc;
+}
+
+.botao:hover {
+    text-decoration: none;
+    background-color: #8e1efc;
+    color: white;
+}
+
+.fa-play {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.4em;
+    border-radius: 50%;
+}
+
+.containerAssista {
+    background: linear-gradient(180deg, #ce9fece3, #886ff8dc), url(IMG/video-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
