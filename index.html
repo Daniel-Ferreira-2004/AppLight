@@ -48,8 +48,8 @@
                         <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellendus
                             ullam odio delectus sint similique, illo possimus accusamus magnam. Distinctio quibusdam
                             amet quas atque saepe ipsum! Nam facilis vel quasi.</p>
-                        <a href=""><img src="IMG/appstore.png" alt="App Store botão"></a>
-                        <a href=""><img src="IMG/playstore.png" alt="PlayStore botão"></a>
+                        <a href="" class="p-5"><img class="pb-3" src="IMG/appstore.png" alt="App Store botão"></a>
+                        <a href="" class="p-5"><img class="pb-5" src="IMG/playstore.png" alt="PlayStore botão"></a>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center">
                         <img src="IMG/iphone-screen.png" alt="Celular" loading="lazy" class="img-fluid">
@@ -63,7 +63,7 @@
 
         <section>
             <div class="container p-5">
-                <div class="row col-md-12 d-flex flex-column align-items-center">
+                <div class="row col-md-12  col-sm-12 d-flex flex-column align-items-center">
                     <div class="d-flex flex-column align-items-center pt-5">
                         <h2>Sobre</h2>
                         <span class="line"></span>
@@ -104,9 +104,31 @@
         <section>
             <div class="container containerAssista">
                 <div class="row d-flex align-items-center justify-content-center pt-2 mb-5">
-                    <div class="p-5">
-                        <i class="fa-solid fa-play fa-3x"></i>
-                    </div>
+                    <!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ExemploModalCentralizado">
+    Abrir modal de demonstração
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalCentralizado">Título do modal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Salvar mudanças</button>
+        </div>
+      </div>
+    </div>
+  </div>
                 </div>
             </div>
         </section>
