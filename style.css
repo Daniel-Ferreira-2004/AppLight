@@ -6,6 +6,7 @@
 
 nav {
     background-color: #BF94FB;
+    width: 100%;
 }
 
 .containerAplicativo {
@@ -35,17 +36,32 @@ nav {
     color: white;
 }
 
-.fa-play {
+.fa-sharp {
     background-color: white;
     border: 1px solid black;
-    padding: 0.4em;
+    padding: 1.2em;
     border-radius: 50%;
+    color: #8e1efc;
+    align-items: center;
+}
+
+.botao-video:hover {
+    cursor: pointer;
+    border: transparent;
 }
 
 .containerAssista {
-    background: linear-gradient(180deg, #ce9fece3, #886ff8dc), url(IMG/video-bg.jpg);
+    background: linear-gradient(90deg, #ce9fecc2, #886ff8c7), url(IMG/video-bg.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size: 100%;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+video {
+    padding: 0;
+    width: 50em;
+    margin: 0 -30%;
 }
