@@ -16,24 +16,27 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top container">
-            <div class="navbar-brand">
-                <img src="IMG/logo.png" alt="Logo">
-            </div>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-scroll">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="IMG/logo.png" alt="Logo">
+                </div>
 
-            <button class="navbar-toggler ml-sm-auto" data-toggle="collapse" data-target="#nav-principal">
-                <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="nav-principal">
-                <ul class="navbar-nav ml-md-auto text-center">
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">LAR</a></li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">SOBRE</a></li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">CARACTERÍSTICAS</a></li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">EQUIPE</a></li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">TESTEMUNHOS</a> </li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">PARGUNTAS FREQUENTES</a></li>
-                    <li class="navbar-item pr-2"><a href="" class="nav-link text-light">CONTATO</a></li>
-                </ul>
+                <button class="navbar-toggler ml-sm-auto" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-md-auto text-center">
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">LAR</a></li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">SOBRE</a></li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">CARACTERÍSTICAS</a></li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">EQUIPE</a></li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">TESTEMUNHOS</a> </li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">PARGUNTAS FREQUENTES</a>
+                        </li>
+                        <li class="navbar-item pr-2"><a href="" class="nav-link text-light">CONTATO</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -57,7 +60,7 @@
                 </div>
             </div>
             <div>
-                <img src="IMG/applight-wave.svg" alt="">
+                <img src="IMG/applight-wave.svg" alt="borda Branca">
             </div>
         </section>
 
@@ -108,8 +111,7 @@
                         <h2 class="text-light display-4 pb-1">Assista Agora</h2>
                         <button type="button" class="bg-transparent border-0 botao-video" data-toggle="modal"
                             data-target="#videoModal">
-                            <i class="fa-2xl fa-sharp fa-solid fa-play"></i>
-                        </button>
+                            <i class="fa fa-play" id="video-icon" aria-hidden="true"></i> </button>
                     </div>
 
                     <!-- Modal -->
@@ -131,17 +133,134 @@
                     <div class="text-center">
                         <h3>Características</h3>
                         <span class="line"></span>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos <br> facere reiciendis odit nisi.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos <br>
+                            facere reiciendis odit nisi.</p>
                     </div>
                     <div class="col-md-12 d-flex">
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                            conteudo
+                            <div class="d-flex">
+                                <div class="caracteristicasTexto">
+                                    <h5>Processamento rápido</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-bolt" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="caracteristicasTexto">
+                                    <h5>Baixo consumo de energia</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-battery-full" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="caracteristicasTexto">
+                                    <h5>Compatibilidade com Wi-Fi</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-wifi" aria-hidden="true"></span>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                            imagem
+                            <img src="IMG/iphone-screen-with-shadow.png" alt="Imagem de um celular" class="img-fluid">
                         </div>
+
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                            conteudo
+
+                            <div class="d-flex">
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-check-double" aria-hidden="true"></span>
+                                </div>
+                                <div class="caracteristicasTexto">
+                                    <h5>Processamento rápido</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-dollar-sign" aria-hidden="true"></span>
+                                </div>
+                                <div class="caracteristicasTexto">
+                                    <h5>Baixo consumo de energia</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="caracteristicasIcon">
+                                    <span class="fa fa-hdd" aria-hidden="true"></span>
+                                </div>
+                                <div class="caracteristicasTexto">
+                                    <h5>Compatibilidade com Wi-Fi</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididugnt ut labore</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="NossaEquipe">
+            <div class="container">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="text-center">
+                            <h3>Nossa Equipe</h3>
+                            <span class="line"></span>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos
+                                <br>
+                            facere reiciendis odit nisi.</p>
+                        </div>
+
+                        <div class="d-flex col-md-12">
+                            <div class="col-md-4 d-flex flex-column align-items-center">
+                                <div class="nossaEquipeIMG">
+                                    <img src="IMG/user1.jpg" alt="Mulher Negra sorrindo" loading="lazy" class="img-fluid">
+                                </div>
+                                <div class="nossaEquipeTexto">
+                                    <h5 class="text-center">Nitu Singh</h5>
+                                    <p>Especialista em Marketing</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex flex-column align-items-center">
+                                <div class="nossaEquipeIMG">
+                                    <img src="IMG/user2.jpg" alt="Cara Branco de oculos" loading="lazy" class="img-fluid">
+                                </div>
+                                <div class="nossaEquipeTexto">
+                                    <h5 class="text-center">Nitu Singh</h5>
+                                    <p>Especialista em Marketing</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 d-flex flex-column align-items-center">
+                                <div class="nossaEquipeIMG">
+                                    <img src="IMG/user3.jpg" alt="Velho branco de oculos" loading="lazy" class="img-fluid">
+                                </div>
+                                <div class="nossaEquipeTexto">
+                                    <h5 class="text-center">Nitu Singh</h5>
+                                    <p>Especialista em Marketing</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
