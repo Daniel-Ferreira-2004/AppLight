@@ -102,10 +102,47 @@
         </section>
 
         <section>
-            <div class="container containerAssista">
-                <div class="row d-flex align-items-center justify-content-center pt-2 mb-5">
-                    <div class="p-5">
-                        <i class="fa-solid fa-play fa-3x"></i>
+            <div class="container-fluid containerAssista">
+                <div class="row m-5 d-flex flex-column justify-content-center text-center tamanho-video">
+                    <div class="container">
+                        <h2 class="text-light display-4 pb-1">Assista Agora</h2>
+                        <button type="button" class="bg-transparent border-0 botao-video" data-toggle="modal"
+                            data-target="#videoModal">
+                            <i class="fa-2xl fa-sharp fa-solid fa-play"></i>
+                        </button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog"
+                        aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <video src="IMG/videoplayback.mp4" controls width="500px"></video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="caracteristicas">
+            <div class="container p-5">
+                <div class="row d-flex flex-column justify-content-center align-items-center">
+                    <div class="text-center">
+                        <h3>Características</h3>
+                        <span class="line"></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos <br> facere reiciendis odit nisi.</p>
+                    </div>
+                    <div class="col-md-12 d-flex">
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            conteudo
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            imagem
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            conteudo
+                        </div>
                     </div>
                 </div>
             </div>
