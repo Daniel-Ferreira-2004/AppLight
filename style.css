@@ -147,3 +147,7 @@ video {
 .carousel-texto h5 {
     padding-bottom: 1em;
 }
+
+.text-center h5 {
+    padding-bottom: 0.5em;
+}
