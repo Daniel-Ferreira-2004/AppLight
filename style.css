@@ -101,12 +101,49 @@ video {
     padding: 2em 0;
 }
 
+.nossaEquipe {
+    background-color: #FAFAFA;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    padding-top: 5em;
+}
+
 .nossaEquipeIMG img {
     border-radius: 100%;
-    max-width: 19em;;
+    max-width: 19em;
     padding: 3em 1.5em 1em;
 }
 
 .nossaEquipeTexto h5 {
     color: #8e1efc;
+}
+
+.testemunhos {
+    background: linear-gradient(90deg, #C99CFB, #8065FF);
+}
+
+.carousel-comentario {
+    background-color: #d2cbe7;
+    padding: 1.5em;
+    margin: 0 10em;
+    border-radius: 10px;
+}
+
+.carousel-img {
+    display: flex;
+    justify-content: center;
+    margin-left: 1em;
+    padding-right: 2em;
+}
+
+.carousel-img img {
+    border-radius: 100%;
+    border: 10px solid white;
+    width: 10em;
+}
+.carousel-texto h4 {
+    font-weight: bold;
+}
+
+.carousel-texto h5 {
+    padding-bottom: 1em;
 }
