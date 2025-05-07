@@ -151,3 +151,7 @@ video {
 .text-center h5 {
     padding-bottom: 0.5em;
 }
+
+.formBg {
+    background-color: #8065FF;
+}
