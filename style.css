@@ -173,3 +173,7 @@ video {
 .TextoContato {
     line-height: 5px;
 }
+
+.Aplicativo {
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
+}
