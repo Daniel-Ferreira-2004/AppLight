@@ -118,7 +118,7 @@ video {
 }
 
 .testemunhos {
-    background: linear-gradient(90deg, #C99CFB, #8065FF);
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
 }
 
 .carousel-comentario {
@@ -152,6 +152,24 @@ video {
     padding-bottom: 0.5em;
 }
 
+#formEmail, #formText, #formText2, #formTextArea, #formSubmit {
+    border-radius: 1.5em;
+}
+
+#formTextArea {
+    height: 10em;
+}
+
+#formSubmit {
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
+    color: white;
+} 
+
 .formBg {
-    background-color: #8065FF;
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
+    border-radius: 1em;
+}
+
+.TextoContato {
+    line-height: 5px;
 }
