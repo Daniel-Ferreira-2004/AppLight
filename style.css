@@ -5,8 +5,10 @@
 }
 
 nav {
-    background-color: #BF94FB;
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 /*.nav-scroll {
@@ -21,7 +23,7 @@ nav {
 */
 .containerAplicativo {
     padding-top: 8em;
-    background-color: #BF94FB;
+    background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
 }
 
 .line {
@@ -76,10 +78,14 @@ nav {
     padding: 0.5em;
 }
 
-video {
+.tamanho-video {
     padding: 0;
-    width: 50em;
     margin: 0 -30%;
+}
+
+.tamanho-video video {
+    width: 50em;
+
 }
 
 .caracteristicasIcon span {
@@ -176,4 +182,21 @@ video {
 
 .Aplicativo {
     background: linear-gradient(90deg, #C99CFB, #b076f1, #8065FF);
+}
+
+.botao1 img {
+    width: 10em;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .tamanho-video video{
+        padding: 0;
+        width: 96vw;
+        margin: 0 -1;
+    }
+
+    .tamanho-video {
+        margin: 0;
+    } 
 }
