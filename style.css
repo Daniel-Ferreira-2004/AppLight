@@ -130,8 +130,8 @@ nav {
 .carousel-comentario {
     background-color: #d2cbe7;
     padding: 1.5em;
-    margin: 0 10em;
     border-radius: 10px;
+    margin: 0 8em;
 }
 
 .carousel-img {
@@ -146,6 +146,7 @@ nav {
     border: 10px solid white;
     width: 10em;
 }
+
 .carousel-texto h4 {
     font-weight: bold;
 }
@@ -199,4 +200,13 @@ nav {
     .tamanho-video {
         margin: 0;
     } 
+
+    .carousel-comentario {
+        margin: 0 2em;
+    }
+
+    .carousel-texto {
+        text-align: center;
+        padding-top: 1em;
+    }
 }

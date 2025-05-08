@@ -135,7 +135,7 @@
 
         <section class="caracteristicas">
             <div class="container p-5">
-                <div class="row d--md-flex flex-column justify-content-center align-items-center">
+                <div class="row d-md-flex flex-column justify-content-center align-items-center">
                     <div class="text-center">
                         <h3>Características</h3>
                         <span class="line"></span>
@@ -179,8 +179,9 @@
                             </div>
                         </div>
 
-                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
-                            <img src="IMG/iphone-screen-with-shadow.png" alt="Imagem de um celular" class="img-fluid d-sm-none">
+                        <div
+                            class="col-md-4 d-md-flex d-none d-md-block flex-column justify-content-center align-items-center">
+                            <img src="IMG/iphone-screen-with-shadow.png" alt="Imagem de um celular" class="img-fluid ">
                         </div>
 
                         <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
@@ -227,49 +228,44 @@
 
         <section class="NossaEquipe">
             <div class="container">
-                <div class="row d-flex flex-column justify-content-center align-items-center">
-                    <div class="d-flex flex-column align-items-center">
-                        <div class="text-center">
-                            <h3>Nossa Equipe</h3>
-                            <span class="line"></span>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos
-                                <br>
-                                facere reiciendis odit nisi.
-                            </p>
+                <div class="row d-md-flex flex-column justify-content-center align-items-center text-center mb-5">
+                    <div>
+                        <h3>Nossa Equipe</h3>
+                        <span class="line"></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos
+                            <br>
+                            facere reiciendis odit nisi.
+                        </p>
+                    </div>
+
+                    <div class="d-md-flex col-md-12">
+                        <div class="col-md-4 align-items-center">
+                            <div class="nossaEquipeIMG">
+                                <img src="IMG/user1.jpg" alt="Mulher Negra sorrindo" loading="lazy" class="img-fluid">
+                            </div>
+                            <div class="nossaEquipeTexto">
+                                <h5 class="text-center">Nitu Singh</h5>
+                                <p>Especialista em Marketing</p>
+                            </div>
                         </div>
 
-                        <div class="d-flex col-md-12">
-                            <div class="col-md-4 d-flex flex-column align-items-center">
-                                <div class="nossaEquipeIMG">
-                                    <img src="IMG/user1.jpg" alt="Mulher Negra sorrindo" loading="lazy"
-                                        class="img-fluid">
-                                </div>
-                                <div class="nossaEquipeTexto">
-                                    <h5 class="text-center">Nitu Singh</h5>
-                                    <p>Especialista em Marketing</p>
-                                </div>
+                        <div class="col-md-4 align-items-center">
+                            <div class="nossaEquipeIMG">
+                                <img src="IMG/user2.jpg" alt="Cara Branco de oculos" loading="lazy" class="img-fluid">
                             </div>
-
-                            <div class="col-md-4 d-flex flex-column align-items-center">
-                                <div class="nossaEquipeIMG">
-                                    <img src="IMG/user2.jpg" alt="Cara Branco de oculos" loading="lazy"
-                                        class="img-fluid">
-                                </div>
-                                <div class="nossaEquipeTexto">
-                                    <h5 class="text-center">Nitu Singh</h5>
-                                    <p>Especialista em Marketing</p>
-                                </div>
+                            <div class="nossaEquipeTexto">
+                                <h5 class="text-center">Nitu Singh</h5>
+                                <p>Especialista em Marketing</p>
                             </div>
+                        </div>
 
-                            <div class="col-md-4 d-flex flex-column align-items-center">
-                                <div class="nossaEquipeIMG">
-                                    <img src="IMG/user3.jpg" alt="Velho branco de oculos" loading="lazy"
-                                        class="img-fluid">
-                                </div>
-                                <div class="nossaEquipeTexto">
-                                    <h5 class="text-center">Nitu Singh</h5>
-                                    <p>Especialista em Marketing</p>
-                                </div>
+                        <div class="col-md-4 align-items-center">
+                            <div class="nossaEquipeIMG">
+                                <img src="IMG/user3.jpg" alt="Velho branco de oculos" loading="lazy" class="img-fluid">
+                            </div>
+                            <div class="nossaEquipeTexto">
+                                <h5 class="text-center">Nitu Singh</h5>
+                                <p>Especialista em Marketing</p>
                             </div>
                         </div>
                     </div>
@@ -279,80 +275,74 @@
 
         <section class="testemunhos pt-5 pb-5">
             <div class="container">
-                <div class="row flex-column justify-content-center align-items-center">
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                        <div class="text-center text-light p-5">
-                            <h3>Testemunhos</h3>
-                            <span class="line"></span>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos
-                                <br>
-                                facere reiciendis odit nisi.
-                            </p>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="carousel slide" data-ride="carousel" id="carouselControls">
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <div class="d-flex container">
-                                            <div class="d-flex carousel-comentario align-items-center">
-                                                <div class="carousel-img">
-                                                    <img src="IMG/user1.jpg" alt="Mulher Negra sorrindo">
-                                                </div>
-                                                <div class="carousel-texto">
-                                                    <h4>Milena Ramires</h4>
-                                                    <h5>Designer Digital</h5>
-                                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                                        tincidunt
-                                                        ut laoreet dolore magna aliquam eratvo lutpat.</p>
-                                                </div>
-                                            </div>
+                <div class="row d-md-flex justify-content-center align-items-center">
+                    <div class="text-center text-light m-5">
+                        <h3>Testemunhos</h3>
+                        <span class="line"></span>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quae sit, blanditiis, quia quos
+                            <br>
+                            facere reiciendis odit nisi.
+                        </p>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="carousel slide" data-ride="carousel" id="carouselControls">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-md-flex carousel-comentario align-items-center">
+                                        <div class="carousel-img">
+                                            <img src="IMG/user1.jpg" alt="Mulher Negra sorrindo">
+                                        </div>
+                                        <div class="carousel-texto">
+                                            <h4>Milena Ramires</h4>
+                                            <h5>Designer Digital</h5>
+                                            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                                tincidunt
+                                                ut laoreet dolore magna aliquam eratvo lutpat.</p>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="d-flex container">
-                                            <div class="d-flex carousel-comentario align-items-center">
-                                                <div class="carousel-img">
-                                                    <img src="IMG/user2.jpg" alt="Mulher Negra sorrindo">
-                                                </div>
-                                                <div class="carousel-texto">
-                                                    <h4>Steve Smith</h4>
-                                                    <h5>Usuário do aplicativo</h5>
-                                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                                        tincidunt ut laoreet dolore magna aliquam eratvo lutpat.</p>
-                                                </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex container">
+                                        <div class="d-md-flex carousel-comentario align-items-center">
+                                            <div class="carousel-img">
+                                                <img src="IMG/user2.jpg" alt="Mulher Negra sorrindo">
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="d-flex container">
-                                            <div class="d-flex carousel-comentario align-items-center">
-                                                <div class="carousel-img">
-                                                    <img src="IMG/user3.jpg" alt="Mulher Negra sorrindo">
-                                                </div>
-                                                <div class="carousel-texto">
-                                                    <h4>Gordon Shaw</h4>
-                                                    <h5>Blogueiro</h5>
-                                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                                                        tincidunt
-                                                        ut laoreet dolore magna aliquam eratvo lutpat.</p>
-                                                </div>
+                                            <div class="carousel-texto">
+                                                <h4>Steve Smith</h4>
+                                                <h5>Usuário do aplicativo</h5>
+                                                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                                    tincidunt ut laoreet dolore magna aliquam eratvo lutpat.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselControls" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselControls" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                                <div class="carousel-item">
+                                    <div class="d-flex container">
+                                        <div class="d-md-flex carousel-comentario align-items-center">
+                                            <div class="carousel-img">
+                                                <img src="IMG/user3.jpg" alt="Mulher Negra sorrindo">
+                                            </div>
+                                            <div class="carousel-texto">
+                                                <h4>Gordon Shaw</h4>
+                                                <h5>Blogueiro</h5>
+                                                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                                                    tincidunt
+                                                    ut laoreet dolore magna aliquam eratvo lutpat.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
+                            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
+
                     </div>
                 </div>
             </div>
